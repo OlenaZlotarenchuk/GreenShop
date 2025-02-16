@@ -1,0 +1,51 @@
+.h1 {
+    // font-size: toRem(70);
+    @include adaptiveValue("font-size", 70, 24);
+    @include adaptiveValue("line-height", 70, 24);
+    font-weight: 900;
+    color: $titleColor;
+    text-transform: uppercase;
+}
+
+.h2 {
+    @include adaptiveValue("font-size", 30, 22);
+    @include adaptiveValue("line-height", 30, 22);
+    font-weight: 700;
+    color: $titleColor;
+    text-transform: capitalize;
+}
+
+.h3 {
+    @include adaptiveValue("font-size", 20, 18);
+    @include adaptiveValue("line-height", 26, 20);
+    font-weight: 700;
+    color: $titleColor;
+    text-transform: capitalize;
+}
+
+.h4 {
+    @include adaptiveValue("font-size", 18, 16);
+    @include adaptiveValue("line-height", 24, 20);
+    font-weight: 900;
+    color: $titleColor;
+    text-transform: uppercase;
+}
+
+.h5 {
+    @include adaptiveValue("font-size", 19, 17);
+    @include adaptiveValue("line-height", 24, 20);
+    text-transform: capitalize;
+    color: $titleColor;
+}
+
+
+
+.text {
+    @include adaptiveValue("font-size", 14, 12);
+    @include adaptiveValue("line-height", 24, 18);
+    color: $mainColor;
+}
+
+
+
+

@@ -1,0 +1,485 @@
+.header {
+    position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 50;
+    height: toRem(78);
+	transition: all 0.3s ease 0s;
+    background-color: $colorWhite;
+	&._header-scroll {
+        position: fixed;
+		background-color: rgb(255, 255, 255, 0.9);
+        height: toRem(60);
+        @media (max-width:$mobile) {
+            height: toRem(100);
+        }
+	}
+
+    @media (max-width:$mobile) {
+        height: toRem(130);
+    }
+
+    // .header__container
+
+    &__container {
+        height: 100%;
+    }
+
+    &__wrapper {
+        display: grid;
+        align-items: center;
+	    justify-content: space-between;
+        grid-template-columns: auto 1fr auto;
+        column-gap: toRem(15);
+        height: 100%;
+        border-bottom: .3px solid rgba(70, 163, 88, 0.5);
+
+        @media (max-width:$mobile) {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, auto);
+        }
+    }
+
+    // .header__logo
+
+    &__logo {
+        position: relative;
+		z-index: 5;
+    
+		img {
+			max-width: 100%;
+		}
+
+        @media (max-width:$mobile) {
+            grid-column: 1;
+            grid-row: 1;
+            justify-self: start;
+            align-self: center;
+        }
+    }
+
+    // .header__menu
+
+    &__menu {
+        
+        @media (max-width:$mobile) {
+            grid-column: 2;
+            grid-row: 1;
+            justify-self: end;
+            align-self: center;
+        }
+
+        @media (min-width:$mobile) {
+			display: flex;
+			align-items: center;
+            justify-content: center;
+            height: 100%;
+		}
+    }
+
+    // .header__actions
+
+    &__actions {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        @include adaptiveValue("gap", 30, 15);
+        @media (max-width:$mobile) {
+            grid-column: span 2;
+            grid-row: 2;
+            justify-content: space-between;
+        }
+    }
+
+    // .header__search
+
+    &__search {
+        flex: 1 1 auto;
+        @media (max-width:toEm(420)) {
+            flex-grow: 0;
+        }
+    }
+    &__search-form {
+        background-color: transparent;
+        border-radius: toRem(10);
+        position: relative;
+        border: 1px solid transparent;
+    }
+
+    &__search-button {
+        @media (max-width:$mobile) {
+            position: absolute;
+            height: toRem(41);
+            width: toRem(41);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 0;
+            left: toRem(8);
+        }
+       
+        &::before {
+            color: $titleColor;
+            font-size: 22px;
+        }
+
+        @media (max-width:toEm(420)) {
+            position: relative;
+        }
+    }
+
+    &__search-input {
+        display: none;
+        @media (max-width:$mobile) {
+            display: block;
+            width: 100%;
+            background-color: $bg-secondary;
+            border-radius: toRem(10);
+            height: toRem(41);
+            color: $mainColor;
+            padding: 0px toRem(20) 0px toRem(50);
+            &::placeholder {
+                color: $lightGreen;
+            }
+            &:focus-visible {
+                outline: 1px solid $accentColor;
+            } 
+        }
+
+        @media (max-width:toEm(420)) {
+            display: none;
+        }
+    }
+
+    // .header__cart
+
+    &__cart {
+        position: relative;
+
+        &::before {
+            color: $titleColor;
+            font-size: 24px;
+        }
+
+		span {
+			position: absolute;
+			width: toRem(16);
+			height: toRem(16);
+			background-color: $accentColor;
+			font-size: toRem(8);
+            line-height: toRem(10);
+            font-weight: 500;
+            border: 1px solid $colorWhite;
+			border-radius: 50%;
+			display: flex;
+            justify-content: center;
+			align-items: center;
+			top: 0;
+			right: toRem(-8);
+			color: $colorWhite;
+		}
+
+        @media (max-width:toEm(420)) {
+            margin-right: auto;
+        }
+    }
+
+    &__login {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include adaptiveValue("gap", 10, 5);
+        &-title {
+            @include adaptiveValue("font-size", 20, 16);
+            @include adaptiveValue("line-height", 20, 16); 
+            font-weight: 500;
+        }
+
+        &::before {
+            color: $colorWhite;
+            @include adaptiveValue("font-size", 22, 20);
+        }
+    }
+}
+
+.cart-header {
+    margin-right: auto;
+}
+
+.menu {
+    // .menu__body
+
+    &__body {
+        @media (max-width: $mobile) {
+			position: fixed;
+            z-index: 2;
+			width: 50%;
+			height: 100%;
+			top: 0;
+			right: -100%;
+            display: flex;
+			flex-direction: column;
+			text-align: center;
+            justify-content: flex-start;
+			transition: all 0.3s ease 0s;
+			overflow: auto;
+			background-color: $accentColor;
+			gap: toRem(40);
+			@include adaptiveValue("padding-top", 180, 100);
+			padding-left: toRem(15);
+			padding-right: toRem(15);
+			padding-bottom: toRem(30);
+			&::before {
+				content: "";
+				position: fixed;
+				top: 0;
+				right: -100%;
+				transition: all 0.3s ease 0s;
+				width: 50%;
+				@include adaptiveValue("height", 78, 50);
+				background-color: $accentColor;
+				z-index: 2;
+			}
+
+			.menu-open & {
+				right: 0;
+				&::before {
+					right: 0;
+				}
+			}
+		}
+        @media (max-width:$mobileSmall) {
+            width: 100%;
+
+            &::before {
+				background-color: $colorWhite;
+				width: 100%;
+			}
+		}
+        @media (min-width:$mobile) {
+            height: 100%;
+		}
+    }
+
+    // .menu__list
+
+    &__list {
+        display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+        row-gap: toRem(10);
+        @include adaptiveValue("column-gap", 50, 20);
+
+        @media (max-width: $mobile) {
+            display: flex;
+			flex-direction: column;
+			text-align: center;
+			row-gap: toRem(36);
+            order: 2;
+		}
+
+        @media (min-width:$mobile) {
+            height: 100%;
+		}
+    }
+
+    // .menu__item
+
+    &__item {
+        @media (min-width:$mobile) {
+            height: 100%;
+		}
+    }
+
+    // .menu__link
+
+    &__link {
+		font-size: toRem(20);
+        line-height: toRem(22);
+        text-transform: capitalize;
+        transition: all 0.3s ease-in-out;
+        position: relative;
+		display: flex;
+		align-items: center;
+
+        &::before {
+            content: '';
+            width: 100%;
+            height: 0;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 0);
+            background-color: $accentColor;
+            transition: all 0.3s ease-in-out;
+        }
+
+        &:hover::before {
+            height: 3px;
+        }
+
+        @media (any-hover: hover) {
+			&:hover {
+				color: $accentColor;
+			}
+		}
+     
+        @media (max-width: $mobile) {
+			font-size: toRem(40);
+            line-height: toRem(50);
+            color: $colorWhite;
+            &:hover {
+				color: $titleColor;
+			}
+		}
+        @media (min-width:$mobile) {
+            height: 100%;
+		}
+     
+    }
+
+    &__link-active {
+        height: 100%;
+		font-size: toRem(20);
+        line-height: toRem(22);
+        transition: all 0.3s ease-in-out;
+        position: relative;
+		display: flex;
+		align-items: center;
+        color: $accentColor;
+        &::before {
+            content: '';
+            width: 100%;
+            height: 3px;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 0);
+            background-color: $accentColor;
+            transition: all 0.3s ease-in-out;
+        }
+
+
+        @media (max-width: $mobile) {
+			font-size: toRem(40);
+            line-height: toRem(50);
+            color: $titleColor;
+		}
+        @media (min-width:$mobile) {
+            height: 100%;
+		}
+    }
+}
+
+.cart-list {
+	overflow: auto;
+	max-height: 200px;
+	// .cart-list__image
+	&__image {
+		flex: 0 0 100px;
+		height: 100px;
+	}
+	// .cart-list__body
+	&__body {
+		flex: 1 1 auto;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 0px 0px 0px 10px;
+	}
+	// .cart-list__title
+	&__title {
+		color: inherit;
+		font-weight: 600;
+		transition: color 0.3s ease 0s;
+		margin: 0px 0px math.div(5px, 16px) * 1em 0px;
+		@media (any-hover: hover) {
+			&:hover {
+				color: $accentColor;
+			}
+		}
+	}
+	// .cart-list__quantity
+	&__quantity {
+		font-size: 14px;
+		margin: 0px 0px math.div(5px, 14px) * 1em 0px;
+	}
+	// .cart-list__delete
+	&__delete {
+		color: red;
+		font-size: 14px;
+		@media (any-hover: hover) {
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	// .cart-list__item
+	&__item {
+		display: flex;
+		align-items: flex-start;
+		&:not(:last-child) {
+			margin: 0px 0px 15px 0px;
+		}
+	}
+}
+
+
+//Burger Icon
+.icon-menu {
+	display: none;
+	@media (max-width: $mobile) {
+		display: block;
+		position: relative;
+		width: toRem(30);
+		height: toRem(18);
+		z-index: 5;
+		@media (any-hover: none) {
+			cursor: default;
+		}
+		span,
+		&::before,
+		&::after {
+			content: "";
+			transition: all 0.3s ease 0s;
+			right: 0;
+			position: absolute;
+			width: 100%;
+			height: toRem(2);
+			background-color: $accentColor;
+		}
+
+		&::before {
+			top: 0;
+		}
+		&::after {
+			bottom: 0;
+		}
+		span {
+			top: calc(50% - toRem(1));
+		}
+		.menu-open & {
+			span {
+				width: 0;
+			}
+			&::before {
+				top: calc(50% - toRem(1));
+				transform: rotate(-45deg);
+                background-color: $colorWhite;
+                @media (max-width:$mobileSmall) {
+                    background-color: $accentColor;
+                }
+			}
+			&::after {
+				bottom: calc(50% - toRem(1));
+				transform: rotate(45deg);
+                background-color: $colorWhite;
+                @media (max-width:$mobileSmall) {
+                    background-color: $accentColor;
+                }
+			}
+		}
+	}
+}

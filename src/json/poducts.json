@@ -1,0 +1,156 @@
+{
+    "products": [
+        {
+            "id": 10,
+            "name": "African Violet",
+            "price": "$199.00",
+            "oldPrice": "$229.00",
+            "image": "img/plants/plant1.png",
+            "labels": [
+                {
+                    "type": "new",
+                    "value": "New"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Beach Spider Lily",
+            "price": "$119.00",
+            "oldPrice": "$229.00",
+            "image": "img/plants/plant2.png",
+            "labels": [
+                {
+                    "type": "sale",
+                    "value": "13% OFF"
+                }
+            ]
+        },
+
+		{
+            "id": 12,
+            "name": "African Violet",
+            "price": "$199.00",
+            "oldPrice": "$229.00",
+            "image": "img/plants/plant1.png",
+            "labels": [
+                {
+                    "type": "new",
+                    "value": "New"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Beach Spider Lily",
+            "price": "$119.00",
+            "oldPrice": "$229.00",
+            "image": "img/plants/plant2.png",
+            "labels": [
+                {
+                    "type": "sale",
+                    "value": "13% OFF"
+                }
+            ]
+        },
+
+		{
+            "id": 14,
+            "name": "Beach Spider Lily",
+            "price": "$119.00",
+            "oldPrice": "$229.00",
+            "image": "img/plants/plant2.png",
+            "labels": [
+                {
+                    "type": "sale",
+                    "value": "13% OFF"
+                }
+            ]
+        },
+
+		{
+            "id": 15,
+            "name": "Beach Spider Lily",
+            "price": "$119.00",
+            "oldPrice": "$229.00",
+            "image": "img/plants/plant2.png",
+            "labels": [
+                {
+                    "type": "sale",
+                    "value": "13% OFF"
+                }
+            ]
+        },
+
+		{
+            "id": 16,
+            "name": "Beach Spider Lily",
+            "price": "$119.00",
+            "oldPrice": "$229.00",
+            "image": "img/plants/plant2.png",
+            "labels": [
+                {
+                    "type": "sale",
+                    "value": "13% OFF"
+                }
+            ]
+        },
+
+		{
+            "id": 17,
+            "name": "Beach Spider Lily",
+            "price": "$119.00",
+            "oldPrice": "$229.00",
+            "image": "img/plants/plant2.png",
+            "labels": [
+                {
+                    "type": "sale",
+                    "value": "13% OFF"
+                }
+            ]
+        },
+
+		{
+            "id": 18,
+            "name": "Beach Spider Lily",
+            "price": "$119.00",
+            "oldPrice": "$229.00",
+            "image": "img/plants/plant2.png",
+            "labels": [
+                {
+                    "type": "sale",
+                    "value": "13% OFF"
+                }
+            ]
+        },
+
+		{
+            "id": 19,
+            "name": "Beach Spider Lily",
+            "price": "$119.00",
+            "oldPrice": "$229.00",
+            "image": "img/plants/plant2.png",
+            "labels": [
+                {
+                    "type": "sale",
+                    "value": "13% OFF"
+                }
+            ]
+        },
+
+		{
+            "id": 20,
+            "name": "Beach Spider Lily",
+            "price": "$119.00",
+            "oldPrice": "$229.00",
+            "image": "img/plants/plant2.png",
+            "labels": [
+                {
+                    "type": "sale",
+                    "value": "13% OFF"
+                }
+            ]
+        }
+
+    ]
+}
