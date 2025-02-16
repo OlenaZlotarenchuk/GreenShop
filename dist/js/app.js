@@ -4060,7 +4060,7 @@
             title: "Barberton Daisy",
             price: "$119.00",
             oldPrice: "",
-            image: "img/plants/plant1.png",
+            image: "img/plants/plant1.webp",
             labels: [ {
                 type: "new",
                 value: "New"
@@ -4070,14 +4070,14 @@
             title: "Angel Wing Begonia",
             price: "$169.00",
             oldPrice: "",
-            image: "img/plants/plant2.png",
+            image: "img/plants/plant2.webp",
             labels: []
         }, {
             id: 3,
             title: "African Violet",
             price: "$199.00",
             oldPrice: "$229.00",
-            image: "img/plants/plant3.png",
+            image: "img/plants/plant3.webp",
             labels: [ {
                 type: "sale",
                 value: "13% OFF"
@@ -4087,7 +4087,7 @@
             title: "Beach Spider Lily",
             price: "$119.00",
             oldPrice: "$229.00",
-            image: "img/plants/plant4.png",
+            image: "img/plants/plant4.webp",
             labels: [ {
                 type: "sale",
                 value: "13% OFF"
@@ -4097,21 +4097,21 @@
             title: "Blushing Bromeliad",
             price: "$139.00",
             oldPrice: "",
-            image: "img/plants/plant5.png",
+            image: "img/plants/plant5.webp",
             labels: []
         }, {
             id: 6,
             title: "Aluminum Plant",
             price: "$179.00",
             oldPrice: "",
-            image: "img/plants/plant6.png",
+            image: "img/plants/plant6.webp",
             labels: []
         }, {
             id: 7,
             title: "Bird's Nest Fern",
             price: "$99.00",
             oldPrice: "",
-            image: "img/plants/plant7.png",
+            image: "img/plants/plant7.webp",
             labels: [ {
                 type: "new",
                 value: "New"
@@ -4121,7 +4121,7 @@
             title: "Broadleaf Lady Palm",
             price: "$59.00",
             oldPrice: "",
-            image: "img/plants/plant8.png",
+            image: "img/plants/plant8.webp",
             labels: [ {
                 type: "new",
                 value: "New"
@@ -4131,84 +4131,84 @@
             title: "Chinese Evergreen",
             price: "$39.00",
             oldPrice: "",
-            image: "img/plants/plant9.png",
+            image: "img/plants/plant9.webp",
             labels: []
         }, {
             id: 10,
             title: "Broadleaf Lady Palm",
             price: "$39.00",
             oldPrice: "",
-            image: "img/plants/plant10.png",
+            image: "img/plants/plant10.webp",
             labels: []
         }, {
             id: 11,
             title: "Bird's Nest Fern",
             price: "$39.00",
             oldPrice: "",
-            image: "img/plants/plant11.png",
+            image: "img/plants/plant11.webp",
             labels: []
         }, {
             id: 12,
             title: "Chinese Evergreen",
             price: "$39.00",
             oldPrice: "",
-            image: "img/plants/plant12.png",
+            image: "img/plants/plant12.webp",
             labels: []
         }, {
             id: 13,
             title: "Aluminum Plant",
             price: "$39.00",
             oldPrice: "",
-            image: "img/plants/plant13.png",
+            image: "img/plants/plant13.webp",
             labels: []
         }, {
             id: 14,
             title: "Blushing Bromeliad",
             price: "$39.00",
             oldPrice: "",
-            image: "img/plants/plant14.png",
+            image: "img/plants/plant14.webp",
             labels: []
         }, {
             id: 15,
             title: "Chinese Evergreen",
             price: "$39.00",
             oldPrice: "",
-            image: "img/plants/plant15.png",
+            image: "img/plants/plant15.webp",
             labels: []
         }, {
             id: 16,
             title: "Chinese Evergreen",
             price: "$39.00",
             oldPrice: "",
-            image: "img/plants/plant16.png",
+            image: "img/plants/plant16.webp",
             labels: []
         }, {
             id: 17,
             title: "Beach Spider Lily",
             price: "$39.00",
             oldPrice: "",
-            image: "img/plants/plant17.png",
+            image: "img/plants/plant17.webp",
             labels: []
         }, {
             id: 18,
             title: "Bird's Nest Fern",
             price: "$39.00",
             oldPrice: "",
-            image: "img/plants/plant18.png",
+            image: "img/plants/plant18.webp",
             labels: []
         }, {
             id: 19,
             title: "Chinese Evergreen",
             price: "$39.00",
             oldPrice: "",
-            image: "img/plants/plant19.png",
+            image: "img/plants/plant19.webp",
             labels: []
         }, {
             id: 20,
             title: "Beach Spider Lily",
             price: "$39.00",
             oldPrice: "",
-            image: "img/plants/plant20.png",
+            image: "img/plants/plant20.webp",
             labels: [ {
                 type: "new",
                 value: "New"

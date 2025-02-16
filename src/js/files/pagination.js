@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Barberton Daisy",
       price: "$119.00",
       oldPrice: "",
-      image: "img/plants/plant1.png",
+      image: "img/plants/plant1.webp",
       labels: [
         {
           "type": "new",
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Angel Wing Begonia",
       price: "$169.00",
       oldPrice: "",
-      image: "img/plants/plant2.png",
+      image: "img/plants/plant2.webp",
       labels: []
     },
     {
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "African Violet",
       price: "$199.00",
       oldPrice: "$229.00",
-      image: "img/plants/plant3.png",
+      image: "img/plants/plant3.webp",
       labels: [
         {
           "type": "sale",
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Beach Spider Lily",
       price: "$119.00",
       oldPrice: "$229.00",
-      image: "img/plants/plant4.png",
+      image: "img/plants/plant4.webp",
       labels: [
         {
           "type": "sale",
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Blushing Bromeliad",
       price: "$139.00",
       oldPrice: "",
-      image: "img/plants/plant5.png",
+      image: "img/plants/plant5.webp",
       labels: []
     },
     {
@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Aluminum Plant",
       price: "$179.00",
       oldPrice: "",
-      image: "img/plants/plant6.png",
+      image: "img/plants/plant6.webp",
       labels: []
     },
     {
@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Bird's Nest Fern",
       price: "$99.00",
       oldPrice: "",
-      image: "img/plants/plant7.png",
+      image: "img/plants/plant7.webp",
       labels: [
         {
           "type": "new",
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Broadleaf Lady Palm",
       price: "$59.00",
       oldPrice: "",
-      image: "img/plants/plant8.png",
+      image: "img/plants/plant8.webp",
       labels: [
         {
           "type": "new",
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Chinese Evergreen",
       price: "$39.00",
       oldPrice: "",
-      image: "img/plants/plant9.png",
+      image: "img/plants/plant9.webp",
       labels: []
     },
     {
@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Broadleaf Lady Palm",
       price: "$39.00",
       oldPrice: "",
-      image: "img/plants/plant10.png",
+      image: "img/plants/plant10.webp",
       labels: []
     },
     {
@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Bird's Nest Fern",
       price: "$39.00",
       oldPrice: "",
-      image: "img/plants/plant11.png",
+      image: "img/plants/plant11.webp",
       labels: []
     },
     {
@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Chinese Evergreen",
       price: "$39.00",
       oldPrice: "",
-      image: "img/plants/plant12.png",
+      image: "img/plants/plant12.webp",
       labels: []
     },
     {
@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Aluminum Plant",
       price: "$39.00",
       oldPrice: "",
-      image: "img/plants/plant13.png",
+      image: "img/plants/plant13.webp",
       labels: []
     },
     {
@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Blushing Bromeliad",
       price: "$39.00",
       oldPrice: "",
-      image: "img/plants/plant14.png",
+      image: "img/plants/plant14.webp",
       labels: []
     },
     {
@@ -142,7 +142,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Chinese Evergreen",
       price: "$39.00",
       oldPrice: "",
-      image: "img/plants/plant15.png",
+      image: "img/plants/plant15.webp",
       labels: []
     },
     {
@@ -150,7 +150,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Chinese Evergreen",
       price: "$39.00",
       oldPrice: "",
-      image: "img/plants/plant16.png",
+      image: "img/plants/plant16.webp",
       labels: []
     },
     {
@@ -158,7 +158,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Beach Spider Lily",
       price: "$39.00",
       oldPrice: "",
-      image: "img/plants/plant17.png",
+      image: "img/plants/plant17.webp",
       labels: []
     },
     {
@@ -166,7 +166,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Bird's Nest Fern",
       price: "$39.00",
       oldPrice: "",
-      image: "img/plants/plant18.png",
+      image: "img/plants/plant18.webp",
       labels: []
     },
     {
@@ -174,7 +174,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Chinese Evergreen",
       price: "$39.00",
       oldPrice: "",
-      image: "img/plants/plant19.png",
+      image: "img/plants/plant19.webp",
       labels: []
     },
     {
@@ -182,7 +182,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Beach Spider Lily",
       price: "$39.00",
       oldPrice: "",
-      image: "img/plants/plant20.png",
+      image: "img/plants/plant20.webp",
       labels: [{
         "type": "new",
         "value": "New"
